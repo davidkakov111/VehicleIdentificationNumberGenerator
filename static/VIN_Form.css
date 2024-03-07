@@ -1,0 +1,82 @@
+body {
+  background-image: url("landscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.container {
+  padding: 2%;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-card {
+  background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.form-title {
+  color: #343a40;
+  text-align: center;
+}
+.btn-submit {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+.btn-search {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btn-search:hover {
+  background-color: #218838;
+}
+.btn-add {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn-add:hover {
+  background-color: #138496;
+}
+.VINisland {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+@media (max-width: 400px) {
+  .VINisland {
+    width: 90%;
+  }
+  h2,
+  h1 {
+    font-size: medium;
+  }
+}
